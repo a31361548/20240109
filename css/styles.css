@@ -267,6 +267,39 @@ body {
   }
 }
 
+#section05 {
+  padding: 10rem 0;
+}
+#section05 .container {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+#section05 .container h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#section05 .container .card {
+  border: none;
+  border-radius: 0;
+  padding: 1rem;
+}
+#section05 .container .card .card-body {
+  padding: 0.5rem 1rem 0;
+}
+#section05 .container .card .card-body h5 {
+  color: #333;
+  text-align: center;
+}
+#section05 .container .card-title {
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  #section05 {
+    padding: 15rem 0;
+  }
+}
+
 #home {
   margin-top: 60px;
   height: 350px;
@@ -311,6 +344,97 @@ body {
   }
 }
 
+#footer {
+  color: white;
+  background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.5) 50%, transparent 100%);
+}
+#footer a {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+#footer a:hover {
+  color: yellow;
+}
+#footer .info {
+  padding: 2rem 1rem;
+}
+#footer .info h5 {
+  font-size: 1.3em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+}
+#footer .info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#footer .info li + li {
+  margin-left: 1rem;
+}
+#footer .info .search {
+  margin-bottom: 1rem;
+}
+#footer .info .search form {
+  position: relative;
+}
+#footer .info .search form input {
+  height: 40px;
+  border-radius: 0;
+  padding: 0;
+}
+#footer .info .search form button {
+  font-size: 1.5rem;
+  background: transparent;
+  border: none;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#footer .info .social h5 {
+  margin-bottom: 0.3rem;
+}
+#footer .info .social ul a {
+  font-size: 2rem;
+}
+#footer .info .site-map,
+#footer .info .related-link,
+#footer .info .about-me {
+  margin-top: 1rem;
+}
+#footer .info .site-map ul,
+#footer .info .related-link ul,
+#footer .info .about-me ul {
+  flex-direction: column;
+}
+#footer .info .site-map ul li,
+#footer .info .related-link ul li,
+#footer .info .about-me ul li {
+  margin-left: 0;
+  margin-bottom: 0.25rem;
+}
+#footer .copyright {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  letter-spacing: 0.15rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media (min-width: 992px) {
+  #footer .info .site-map,
+  #footer .info .related-link,
+  #footer .info .about-me {
+    margin-top: 0;
+  }
+}
+
 .modal .modal-content {
   background-color: transparent;
   border: none;
@@ -351,4 +475,23 @@ body {
 .modal .modal-footer button {
   width: 100%;
   margin: 0;
+}
+
+.swiper {
+  height: 470px;
+}
+@media (min-width: 576px) {
+  .swiper {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .swiper {
+    height: 360px;
+  }
+}
+@media (min-width: 1200px) {
+  .swiper {
+    height: 400px;
+  }
 }
